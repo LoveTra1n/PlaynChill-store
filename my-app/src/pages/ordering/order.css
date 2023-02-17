@@ -1,0 +1,84 @@
+.order-site{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.order-site h1{
+    font-size: 48px;
+}
+.order-menu{
+    display: flex;
+}
+.card-list{
+    width: 892px;
+    min-height: 500px;
+}
+.cart{
+    height: 256px;
+    width: 256px;
+    margin: auto;
+}
+.cartEmpty{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.cartEmpty h1{
+    color: #3D394A;
+    margin-left: 70px;
+}
+.order-tab{
+    margin-left: 80px;
+    border: #1e1c27 3px solid;
+    border-radius: 30px;
+    width: 321px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}.order-tab button{
+    width: 261px;
+    height: 63px;
+    background: rgba(119, 190, 29, 0.17);
+    color: #77BE1D;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+ .active-button{
+     cursor: pointer;
+     width: 261px;
+     height: 63px;
+     background: rgba(119, 190, 29, 0.17);
+     color: #77BE1D;
+     font-size: 18px;
+     border: none;
+     border-radius: 15px;
+     transition: 150ms;
+ }
+.active-button:active{
+
+    scale: 0.90;
+}
+.order-tab p{
+    font-size: 20px;
+    font-weight: bold;
+}.order-tab h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.accepting{
+    margin-top: 30px;
+    align-items: flex-start;
+    width: 261px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.accepting p{
+    margin-top: 0px;
+    text-align: start;
+    font-size: 16px;
+    color: #504e57;
+}

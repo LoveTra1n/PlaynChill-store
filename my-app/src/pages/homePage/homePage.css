@@ -1,0 +1,22 @@
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.link-catalog{
+    color: #366EDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 76px;
+    border: #3D394A 1px solid;
+    border-radius: 15px;
+}
+.link-catalog a{
+    color: #366EDC;
+}
+.renderItem{
+    user-select: none;
+    cursor: pointer;
+    font-size: 18px;
+}

@@ -1,0 +1,49 @@
+.card-menu{
+    right: -73px;
+    z-index: 9;
+    width: 280px;
+    min-height: 450px;
+    background: #181326;
+    position: absolute;
+    border-radius: 15px;
+}
+.deleteIcon{
+    cursor: pointer;
+
+}
+.card-menu h1{
+    height: 10px;
+    font-size: 16px;
+    color: #eae9e9;
+}
+.cardListItem img{
+    margin-right: 5px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: center;
+}.cardListItem{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+    .cardList__info{
+        justify-content: start;
+        margin-left: 5px;
+     text-align: start;
+     align-items: start;
+     display: flex;
+     flex-direction: column;
+ }
+ .cardList__info h1{
+     margin-top: 2px;
+     top:0px;
+     margin-right: 5px;
+ }
+ .left{
+     display: flex;
+ }
+ .linkCat{
+     bottom:5px
+ }

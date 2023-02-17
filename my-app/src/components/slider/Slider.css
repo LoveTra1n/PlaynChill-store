@@ -1,0 +1,110 @@
+
+.slick-slide{
+    border-radius: 15px;
+}
+.slick-track{
+    border-radius: 15px;
+}
+.item{
+
+    width: 1000px;
+    height: 600px;
+    border-radius: 15px;
+}
+.item-1{
+
+    background-size: cover;
+    background-position: left;
+    background: url("Rectangle 2512.png");
+}
+
+.item_1-info{
+    margin-top: 160px;
+    margin-left: 120px;
+    justify-content: left;
+    text-align: left;
+    font-size: 24px;
+    width: 595px;
+    height: 414px;
+    z-index: 4;
+}
+.cart-btn{
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    height: 70px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+.cart-btn:hover{
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    background: #77BE1D;
+    transition: 0.5ms;
+}
+.cart-btn:active{
+    background: #5d9912;
+}
+.more-btn{
+    color: white;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    height: 70px;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+
+}
+.more-btn:hover{
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    background: #77BE1D;
+    transition: 0.5ms;
+}
+.more-btn:active{
+    background: #5d9912;
+}
+.button__bar{
+    margin: auto;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+}
+.button__bar li{
+    list-style-type: none;
+}
+.button__bar li button{
+    margin-right: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 43px;
+    height: 1px;
+    color: rgba(255,255,255,0);
+}
+.button__bar li.slick-active button {
+    opacity: .75;
+    color: rgba(255,255,255,0) ;
+}
+
+
+.slider-form{
+    border-radius: 15px;
+}

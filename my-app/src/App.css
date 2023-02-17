@@ -1,0 +1,23 @@
+body{
+  background-color: #06030f;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 1260px;
+  margin: 0 auto;
+  padding: 0 40px;
+  color: white;
+}
+h3{
+  color: white;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+

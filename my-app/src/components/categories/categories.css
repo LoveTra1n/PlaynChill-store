@@ -1,0 +1,17 @@
+.all-cat{
+    display: flex;
+    list-style: none;
+}
+.all-cat li{
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 20px;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.active{
+
+    border-bottom: white solid ;
+    border-radius: 0;
+
+}

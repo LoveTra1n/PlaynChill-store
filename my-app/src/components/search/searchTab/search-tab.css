@@ -1,0 +1,27 @@
+.st-icons h1{
+    color: aliceblue;
+    font-size: 21px;
+    margin-top: 5px;
+}.st-icons h2{
+    color: aliceblue;
+    font-size: 21px;
+    margin-top: 3px;
+}
+.st-icons{
+    padding-top: 5px;
+    padding-left: 20px;
+    display: flex;
+}
+.view-img{
+    border-radius: 15px;
+    width: 145px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+.view-info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
