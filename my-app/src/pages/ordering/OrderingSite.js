@@ -3,7 +3,6 @@ import "./order.css"
 import {useSelector} from "react-redux";
 import OrderItem from "./order-items/OrderItem";
 import cart from "./9716360.png"
-import {render} from "react-dom";
 
 const OrderingSite = () => {
     const {cardItems}=useSelector(state=>state.valueReducer)
